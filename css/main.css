@@ -1154,10 +1154,13 @@ pre .javascript .function {
   margin-bottom: 10px;
   margin-right: 10px;
   vertical-align: middle;
+  transition-delay: 0s;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #f9fbff;
+  background: #39b1f2;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2390,7 +2393,7 @@ hr {
   border-bottom-color: #222;
 }
 .sidebar {
-  right: -320px;
+  right: -220px;
 }
 .sidebar.sidebar-active {
   right: 0;
@@ -2410,7 +2413,7 @@ hr {
   left: 30px;
 }
 .sidebar {
-  width: 320px;
+  width: 220px;
   z-index: 1200;
   transition-delay: 0s;
   transition-duration: 0.2s;
